@@ -7,12 +7,18 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header />
+      <div className="sidebar">
         <Sidebar />
+      </div>
+      <div className="main-header">
+        <Header />
+      </div>
+      <div className="main">
         <Main />
+      </div>
+      <div className="footer">
         <Footer />
-      </header>
+      </div>
     </div>
   );
 }
