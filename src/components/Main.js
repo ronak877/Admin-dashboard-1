@@ -2,12 +2,12 @@ const Main = () => {
   return (
     <div className="main-section">
       <div className="projects">
-        <p>Prooject</p>
-        <p>Prooject</p>
-        <p>Prooject</p>
-        <p>Prooject</p>
-        <p>Prooject</p>
-        <p>Prooject</p>
+        <div className="project1">Project 1</div>
+        <div className="project2">Project 2</div>
+        <div className="project3">Project 3</div>
+        <div className="project4">Project 4</div>
+        <div className="project5">Project 5</div>
+        <div className="project6">Project 6</div>
       </div>
 
       <div className="announcements">

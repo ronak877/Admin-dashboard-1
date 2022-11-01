@@ -6,17 +6,17 @@ const Header = () => {
         <p>Search bar</p>
       </div>
 
-      <div className="UserInfo">
+      <div className="user-info">
         <p>Big avatar</p>
         <p>Greeting</p>
-        <div className="adminFeatures">
-          <p>New</p>
-          <p>upload</p>
-          <p>Share</p>
+        <div className="admin-features">
+          <p className="new">New</p>
+          <p className="upload">upload</p>
+          <p className="share">Share</p>
         </div>
       </div>
 
-      <div className="notificationsPanel">
+      <div className="notifications-panel">
         <p>Bell notification</p>
         <p>Small avatar</p>
         <p>User-name</p>

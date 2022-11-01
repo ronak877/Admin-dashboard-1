@@ -1,6 +1,11 @@
 const Footer = () => {
-  return <h3>This is the footer.</h3>;
+  return (
+    <div className="footer">
+      <div className="copy">
+        <p>Copyright &copy; Mihai Gabriel, 2022. All rights reserved.</p>
+      </div>
+    </div>
+  );
 };
 
 export default Footer;
-<h3>This is the footer.</h3>;

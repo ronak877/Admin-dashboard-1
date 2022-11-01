@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header starts here */
+.admin-features {
+  background-color: rgb(38, 160, 242);
+  color: white;
+  text-align: center;
+}
+
+.new,
+.upload,
+.share {
+  border-radius: 5px;
+  border: 2px solid black;
+}
+/* Header ends here */
+
+/* Sidebar starts here */
+
+.Sidebar {
+  font-size: 18px;
+  background-color: rgb(38, 160, 242);
+  color: white;
+  font-weight: bold;
+}
+
+/* Sidebar ends here */
+
+/* Main starts here */
+.projects div {
+  border-left: 10px solid yellow;
+}
+
+/* Main ends here */
+
+/* Footer starts here */
+
+/* Footer ends here */
